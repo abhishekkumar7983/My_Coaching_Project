@@ -1,0 +1,68 @@
+/* footer.css */
+
+/* General Footer Styles */
+.footer {
+    background-color: #402B3A;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer_heading h2 {
+    font-size: 1.5rem;
+  }
+  
+  .footer_contact_details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact_info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;  
+  }
+  
+  .contact_info a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact_info a span {
+    margin-left: 5px;
+  }
+  
+  .footer_social {
+    display: flex;
+  }
+  
+  .footer_social i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  .footer_social i:last-child {
+    margin-right: 0;
+  }
+  
+  .social_media_icon{
+    margin-right:1.1%;
+  }
+
+  /* Copyright Section */
+  .copyright {
+    text-align: center;
+    margin-top: 10px;  
+    font-size: small;
+    }
+  

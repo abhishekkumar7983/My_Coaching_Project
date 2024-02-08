@@ -1,0 +1,114 @@
+.home_Container {
+  font-family: "Poppins", sans-serif;
+  position: fixed; /* Position fixed to keep it at the top */
+  top: 0; /* Distance from the top of the viewport */
+  width: 100%; /* Full width */
+  z-index: 1000;
+  background: rgba(169, 49, 38, 0.902);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+}
+
+.header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* <---------------------------------------------------dropdown css ----------------------------------------------------------------> */
+
+/* Define styles for the dropdown button */
+.dropbtn {
+  background-color: brown;
+  /* border-radius: 10%; */
+  color: white;
+  padding: 5px;
+  /* margin-top: 30%; */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 870px) {
+  .dropbtn {
+    display: block; /* Show the dropdown button */
+  }
+}
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 2%;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Show the dropdown menu when the button is clicked */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for each dropdown item */
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change background color of dropdown items on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* <--------------------------------------------------------end dropdown css--------------------------------------------------------> */
+
+.coaching_header_title {
+  font-size: 3rem;
+  display: flex;
+  align-items: flex-start;
+  padding: 1%;
+  padding-left: 5.5%;
+}
+@media (max-width: 800px) {
+  .coaching_header_title {
+    font-size: 2.2rem;
+  }
+}
+.headers_options {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-left: 10%;
+  @media (max-width: 870px) {
+    display: none;
+    margin: auto;
+    /* display:flex; */
+    /* flex-direction: column; */
+  }
+}
+
+.headers_options .header_array_element {
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300 !important;
+  @media (max-width: 850px) {
+    margin: auto;
+  }
+}
+
+.border-line {
+  border: none;
+  height: 1.5px;
+  background-color: white;
+  box-shadow: 0px 8px 100px rgba(0, 0, 0, 0.2);
+  width: 91%;
+}

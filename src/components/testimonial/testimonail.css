@@ -1,0 +1,97 @@
+/* testimonail.css */
+
+.carousel {
+  position: relative;
+  /* width: 900px; */
+  width: 90%;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden; /* Ensure images don't overflow */
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+}
+
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-indicators button.active {
+  background-color: #fff;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%; /* Ensure images take full width of the container */
+  height: 100%; /* Ensure images take full height of the container */
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+.carousel-item img {
+  width: 100%; /* Make images fill the container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-item {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  animation: slideRight 5s infinite linear;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  90% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel-item.active {
+  display: block;
+  left: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 20;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
