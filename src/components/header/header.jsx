@@ -29,22 +29,22 @@ export default function Header({ header = [] }) {
               </div>
             </Link>
             <div className="headers_options">
-              <h2 className="header_array_element">
-                <NavLink to="/My_Coaching_Project">Home</NavLink>
+              <h2 >
+                <NavLink to="/My_Coaching_Project" className="header_array_element">Home</NavLink>
+              </h2>
+              
+              <h2 >
+                <NavLink to="My_Coaching_Project/about" className="header_array_element">AboutUs</NavLink>
               </h2>
 
-              <h2 className="header_array_element">
-                <NavLink to="My_Coaching_Project/about">AboutUs</NavLink>
+              <h2 >
+                <NavLink to="My_Coaching_Project/courses" className="header_array_element">Courses</NavLink>
               </h2>
-
-              <h2 className="header_array_element">
-                <NavLink to="My_Coaching_Project/courses">Courses</NavLink>
+              <h2 >
+                <NavLink to="My_Coaching_Project/gallery" className="header_array_element">Gallery</NavLink>
               </h2>
-              <h2 className="header_array_element">
-                <NavLink to="My_Coaching_Project/gallery">Gallery</NavLink>
-              </h2>
-              <h2 className="header_array_element">
-                <NavLink to="My_Coaching_Project/contact">ContactUs</NavLink>
+              <h2>
+                <NavLink to="My_Coaching_Project/contact" className="header_array_element">ContactUs</NavLink>
               </h2>
             </div>
             {/* <------------for dropdown options---------------------------> */}
