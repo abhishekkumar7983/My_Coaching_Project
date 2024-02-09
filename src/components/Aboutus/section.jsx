@@ -12,6 +12,7 @@ function Section({ image, title, content, reverse }) {
         <h2>{title}</h2>
         <p>{content}</p>
       </div>
+      <div className='Line-break-css'></div>
     </div>
   );
 }

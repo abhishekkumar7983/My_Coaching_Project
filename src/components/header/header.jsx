@@ -29,23 +29,56 @@ export default function Header({ header = [] }) {
               </div>
             </Link>
             <div className="headers_options">
-              <h2 >
-                <NavLink to="/My_Coaching_Project" className="header_array_element">Home</NavLink>
-              </h2>
-              
-              <h2 >
-                <NavLink to="My_Coaching_Project/about" className="header_array_element">AboutUs</NavLink>
-              </h2>
+              <h3>
+                <NavLink
+                  to="/My_Coaching_Project"
+                  className="header_array_element"
+                >
+                  Home
+                </NavLink>
+              </h3>
 
-              <h2 >
-                <NavLink to="My_Coaching_Project/courses" className="header_array_element">Courses</NavLink>
-              </h2>
-              <h2 >
-                <NavLink to="My_Coaching_Project/gallery" className="header_array_element">Gallery</NavLink>
-              </h2>
-              <h2>
-                <NavLink to="My_Coaching_Project/contact" className="header_array_element">ContactUs</NavLink>
-              </h2>
+              <h3>
+                <NavLink
+                  to="My_Coaching_Project/about"
+                  className="header_array_element"
+                >
+                  AboutUs
+                </NavLink>
+              </h3>
+
+              <h3>
+                <NavLink
+                  to="My_Coaching_Project/courses"
+                  className="header_array_element"
+                >
+                  Courses
+                </NavLink>
+              </h3>
+              <h3>
+                <NavLink
+                  to="My_Coaching_Project/gallery"
+                  className="header_array_element"
+                >
+                  Gallery
+                </NavLink>
+              </h3>
+              <h3>
+                <NavLink
+                  to="My_Coaching_Project/contact"
+                  className="header_array_element"
+                >
+                  ContactUs
+                </NavLink>
+              </h3>
+              <h3>
+                <NavLink
+                  to="My_Coaching_Project/result"
+                  className="header_array_element"
+                >
+                  Results
+                </NavLink>
+              </h3>
             </div>
             {/* <------------for dropdown options---------------------------> */}
             <div className="dropdown">
@@ -54,10 +87,51 @@ export default function Header({ header = [] }) {
               </button>
               {showDropdown && (
                 <div className="dropdown-content">
-                  <a href="#home">Home</a>
-                  <a href="#about">About Us</a>
-                  <a href="#contact_us">Contact Us</a>
-                  <a href="#courses">Courses</a>
+                  <p>
+                    <NavLink to="/My_Coaching_Project">Home</NavLink>
+                  </p>
+
+                  <p>
+                    <NavLink
+                      to="My_Coaching_Project/about"
+                      // className="header_array_element"
+                    >
+                      AboutUs
+                    </NavLink>
+                  </p>
+
+                  <p>
+                    <NavLink
+                      to="My_Coaching_Project/courses"
+                      // className="header_array_element"
+                    >
+                      Courses
+                    </NavLink>
+                  </p>
+                  <p>
+                    <NavLink
+                      to="My_Coaching_Project/gallery"
+                      // className="header_array_element"
+                    >
+                      Gallery
+                    </NavLink>
+                  </p>
+                  <p>
+                    <NavLink
+                      to="My_Coaching_Project/contact"
+                      // className="header_array_element"
+                    >
+                      ContactUs
+                    </NavLink>
+                  </p>
+                  <p>
+                    <NavLink
+                      to="My_Coaching_Project/result"
+                      // className="header_array_element"
+                    >
+                      Results
+                    </NavLink>
+                  </p>
                 </div>
               )}
             </div>

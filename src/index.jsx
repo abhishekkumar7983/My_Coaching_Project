@@ -15,6 +15,7 @@ import AboutUs from "./components/Aboutus/aboutus";
 import ContactFormComponent from "./components/contactus/contactus";
 import Gallery from "./components/Gallery/gallery";
 import Courses from "./components/Courses/courses";
+import Result from "./components/results/result";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
       />
       <Route path="My_Coaching_Project/gallery" element={<Gallery />} />
       <Route path="My_Coaching_Project/courses" element={<Courses />} />
+      <Route path="My_Coaching_Project/result" element={<Result />} />
     </Route>
   )
 );
