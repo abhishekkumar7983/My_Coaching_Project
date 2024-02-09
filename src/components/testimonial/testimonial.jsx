@@ -58,16 +58,16 @@ const Carousel = () => {
   return (
     <div id="carouselExampleDark" className="carousel carousel-dark slide">
       <div className="carousel-indicators">
-        {slides.map((slide, index) => (
-          <button
-            key={index}
-            type="button"
-            onClick={() => setCurrentIndex(index)}
-            className={index === currentIndex ? "active" : ""}
-            aria-current={index === currentIndex ? "true" : "false"}
-            aria-label={`Slide ${index + 1}`}
-          ></button>
-        ))}
+        {/* {slides.map((slide, index) => (
+          // <button
+          //   key={index}
+          //   type="button"
+          //   onClick={() => setCurrentIndex(index)}
+          //   className={index === currentIndex ? "active" : ""}
+          //   aria-current={index === currentIndex ? "true" : "false"}
+          //   aria-label={`Slide ${index + 1}`}
+          // ></button>
+        ))} */}
       </div>
       <div className="carousel-inner">
         {slides.map((slide, index) => (

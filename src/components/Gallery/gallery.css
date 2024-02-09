@@ -1,0 +1,31 @@
+.gallery-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.gallery_heading {
+  font-size: 3rem;
+  font-family: "Poppins";
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 40px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Media Query for Mobile View */
+@media screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(100%, 1fr)
+    ); /* Each image takes full width */
+  }
+}

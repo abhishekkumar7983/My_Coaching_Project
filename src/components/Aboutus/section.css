@@ -1,0 +1,32 @@
+/* Section.css */
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-image img {
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .section-content {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .section-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section-content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  
