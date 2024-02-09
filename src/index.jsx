@@ -19,11 +19,14 @@ import Courses from "./components/Courses/courses";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path="" element={<Home />} />
-      <Route path="about" element={<AboutUs />} />
-      <Route path="contact" element={<ContactFormComponent />} />
-      <Route path="gallery" element={<Gallery />} />
-      <Route path="courses" element={<Courses />} />
+      <Route path="My_Coaching_Project" element={<Home />} />
+      <Route path="My_Coaching_Project/about" element={<AboutUs />} />
+      <Route
+        path="My_Coaching_Project/contact"
+        element={<ContactFormComponent />}
+      />
+      <Route path="My_Coaching_Project/gallery" element={<Gallery />} />
+      <Route path="My_Coaching_Project/courses" element={<Courses />} />
     </Route>
   )
 );
