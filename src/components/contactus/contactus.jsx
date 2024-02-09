@@ -336,7 +336,7 @@ const ContactFormComponent = () => {
               </svg>
             </span>
             <a href="#" className="svg-margin">
-              +91 9971392860
+            +91 9984907494
             </a>
           </p>
           <p className="contact-detail-section-phone">
@@ -355,7 +355,7 @@ const ContactFormComponent = () => {
               </svg>
             </span>
             <a href="#" className="svg-margin">
-              fayyaz@moneyyapp.com
+             sparkupclasees@gmail.com
             </a>
           </p>
         </div>

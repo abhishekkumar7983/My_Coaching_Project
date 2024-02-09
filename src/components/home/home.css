@@ -1,3 +1,8 @@
+.logo_image {
+  height: 80%;
+  width: 25%;
+}
+
 .home_Container {
   font-family: "Poppins", sans-serif;
   position: fixed; /* Position fixed to keep it at the top */
@@ -71,17 +76,14 @@
 /* <--------------------------------------------------------end dropdown css--------------------------------------------------------> */
 
 .coaching_header_title {
-  font-size: 3rem;
-  display: flex;
-  align-items: flex-start;
   padding: 1%;
   padding-left: 5.5%;
 }
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .coaching_header_title {
     font-size: 2.2rem;
   }
-}
+} */
 .headers_options {
   display: flex;
   flex-direction: row;

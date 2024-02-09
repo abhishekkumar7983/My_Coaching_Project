@@ -18,7 +18,7 @@ export default function Home({ header = [] }) {
     <div className="home_Container " id="home">
       <div className="header">
         <div className="coaching_header_title">
-          <img src={logo} height={100} width={250} />
+          <img className="logo_image" src={logo}  />
         </div>
         <div className="headers_options">
           {header.map((headerText, index) => (

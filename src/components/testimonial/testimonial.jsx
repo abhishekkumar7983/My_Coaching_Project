@@ -86,22 +86,6 @@ const Carousel = () => {
           </div>
         ))}
       </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        onClick={prevSlide}
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        onClick={nextSlide}
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
     </div>
   );
 };
