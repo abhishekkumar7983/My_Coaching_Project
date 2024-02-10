@@ -21,6 +21,7 @@ import Freestudy from "./components/FreeStudy/freestudy";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
+      <Route path="/" element={<Home />} />
       <Route path="My_Coaching_Project" element={<Home />} />
       <Route path="My_Coaching_Project/about" element={<AboutUs />} />
       <Route

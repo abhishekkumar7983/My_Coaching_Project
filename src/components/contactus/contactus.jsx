@@ -143,7 +143,7 @@ const ContactFormComponent = () => {
                 </svg>
               </span>
               <a href="#" className="svg-margin">
-                +91 9984907494
+                +91 7887003010
               </a>
             </p>
             <p className="contact-detail-section-phone">
@@ -255,7 +255,7 @@ const ContactFormComponent = () => {
                   name="jobTitle"
                   value={formData.jobTitle}
                   onChange={handleChange}
-                  placeholder="Batch(e.g. JEE/NEET)"
+                  placeholder="Batch ( e.g. JEE / NEET )"
                 />
                 <div className="error">{errors.jobTitle}</div>
               </div>
@@ -268,7 +268,7 @@ const ContactFormComponent = () => {
                   name="companyName"
                   value={formData.companyName}
                   onChange={handleChange}
-                  placeholder="Company Name"
+                  placeholder="Gender ( Male / Female )"
                 />
                 <div className="error">{errors.companyName}</div>
               </div>
@@ -343,7 +343,7 @@ const ContactFormComponent = () => {
               </svg>
             </span>
             <a href="#" className="svg-margin">
-              +91 9984907494
+              +91 7887003010
             </a>
           </p>
           <p className="contact-detail-section-phone">
