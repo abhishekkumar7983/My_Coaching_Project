@@ -35,7 +35,9 @@
 }
 @media (max-width: 870px) {
   .dropbtn {
-    display: block; /* Show the dropdown button */
+    display: flex; 
+   
+    
   }
 }
 /* Dropdown container */

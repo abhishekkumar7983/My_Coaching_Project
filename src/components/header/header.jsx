@@ -4,6 +4,7 @@ import logo from "../../images/logo.png";
 import Carousel from "../testimonial/testimonial";
 import Contactus from "../contactus/contactus";
 import { Link, NavLink } from "react-router-dom";
+import dropdown from "../../images/dropdown.png"
 
 export default function Header({ header = [] }) {
   // console.log('header prop.....',header);
@@ -11,7 +12,6 @@ export default function Header({ header = [] }) {
   // const text_gap=[
   //   'mr-5',
   // ]
-
   const [showDropdown, setShowDropdown] = useState(false);
 
   const toggleDropdown = () => {
@@ -91,7 +91,7 @@ export default function Header({ header = [] }) {
             {/* <------------for dropdown options---------------------------> */}
             <div className="dropdown">
               <button className="dropbtn" onClick={toggleDropdown}>
-                More..
+                More  <span> <img src={dropdown} height={15} width={25} /></span> 
               </button>
               {showDropdown && (
                 <div className="dropdown-content">
