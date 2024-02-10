@@ -142,9 +142,9 @@ const ContactFormComponent = () => {
                   />
                 </svg>
               </span>
-              <a href="#" className="svg-margin">
+              <span href="#" className="svg-margin">
                 +91 7887003010
-              </a>
+              </span>
             </p>
             <p className="contact-detail-section-phone">
               <span>
@@ -161,9 +161,9 @@ const ContactFormComponent = () => {
                   />
                 </svg>
               </span>
-              <a href="#" className="svg-margin">
+              <span href="#" className="svg-margin">
                 sparkupclasses@gmail.com
-              </a>
+              </span>
             </p>
           </div>
         </div>
@@ -315,10 +315,10 @@ const ContactFormComponent = () => {
           <div className="hints">
             {/* Add hints or additional information here */}
             <p>
-              By submitting this form, you agree that MoneyyApp may share this
+              By submitting this form, you agree that Sparkup Classes may share this
               information with its authorised solution partners, and that you
-              may be contacted about this inquiry by MoneyyApp or a partner of
-              MoneyyApp.
+              may be contacted about this inquiry by Sparkup Classes or a partner of
+              Sparkup Classes.
             </p>
           </div>
         </div>
@@ -342,11 +342,11 @@ const ContactFormComponent = () => {
                 />
               </svg>
             </span>
-            <a href="#" className="svg-margin">
+            <span href="#" className="svg-margin">
               +91 7887003010
-            </a>
+            </span>
           </p>
-          <p className="contact-detail-section-phone">
+          <p className="contact-detail-section-email">
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -361,9 +361,9 @@ const ContactFormComponent = () => {
                 />
               </svg>
             </span>
-            <a href="#" className="svg-margin">
+            <span href="#" className="svg-margin">
               sparkupclasees@gmail.com
-            </a>
+            </span>
           </p>
         </div>
       </div>

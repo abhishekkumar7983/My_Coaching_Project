@@ -12,23 +12,24 @@ export default function Courses() {
       <h2 className="courses-section-heading">Our Courses</h2>
       <div className="course-cards">
         <CourseCard
-          title="Web Development"
-          description="Learn full-stack web development with HTML, CSS, JavaScript, React, Node.js, and more."
+          title="Mathematics"
+          description="Unlock the power of numbers and equations with Sparkup Classes' comprehensive mathematics coaching platform."
           image={img1}
         />
         <CourseCard
-          title="Data Science"
-          description="Master the art of data science with Python, machine learning, data analysis, and visualization."
+          title="Physics"
+          description="Spark up your understanding of physics with Sparkup Classes' dynamic coaching platform."
           image={img2}
         />
         <CourseCard
-          title="Mobile App Development"
-          description="Build mobile apps for iOS and Android using React Native, Swift, and Kotlin."
+          title="Chemistry"
+          description="Illuminate the world of chemistry with Sparkup Classes' insightful coaching platform."
           image={img3}
         />
         <CourseCard
-          title="app Development"
-          description="Learn full-stack web development with HTML, CSS, JavaScript, React, Node.js, and more."
+          title="Biology"
+          description=
+          "Embark on a journey through the wonders of life with Sparkup Classes' engaging biology coaching platform."
           image={img1}
         />
       </div>

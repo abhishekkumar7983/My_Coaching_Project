@@ -10,7 +10,7 @@ function Section({ image, title, content, reverse }) {
       </div>
       <div className="section-content">
         <h2>{title}</h2>
-        <p>{content}</p>
+        <p style={{color:"#666"}}>{content}</p>
       </div>
       <div className='Line-break-css'></div>
     </div>

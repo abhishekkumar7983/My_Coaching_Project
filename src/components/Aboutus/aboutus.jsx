@@ -12,19 +12,19 @@ export default function AboutUs() {
       <Section
         image={img1}
         title="Our Mission"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales aliquam tincidunt. Donec auctor purus vel quam sagittis, vitae viverra sem tempor."
+        content="At Sparkup Classes, our mission is to ignite curiosity, inspire learning, and empower students to reach their full academic potential."
       />
       <Section
         image={img2}
         title="Our Team"
-        content="Vestibulum condimentum, enim id congue aliquet, elit tortor faucibus augue, non dictum metus mauris eget risus. Quisque nec ipsum mauris."
+        content="Our dedicated teams at Sparkup Classes are comprised of passionate educators, tech innovators, and support staff, all working collaboratively to deliver exceptional learning experiences."
         reverse
       />
       <Section
         image={img3}
         title="Our Values"
-        content="Nullam vel dui at nisi tempus aliquet id et enim. Ut eget purus non neque eleifend finibus nec id metus. Sed at pretium orci."
-      />
+        content="Sparkup Classes values excellence, integrity, and innovation, fostering a collaborative environment where diversity is celebrated and students are empowered to embrace a growth mindset."
+        />
     </div>
   );
 }
