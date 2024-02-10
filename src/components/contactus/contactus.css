@@ -79,6 +79,14 @@
   margin-left: 1rem;
 }
 
+@media (max-width: 900px) {
+  .contact-details-section {
+    font-size: 2rem;
+  }
+  .contact-details-section-two {
+    font-size: 1rem;
+  }
+}
 /* Contact details section margin 2 */
 .contact-details-section-margin-2 {
   padding-bottom: 5rem;
@@ -89,10 +97,16 @@
   font-weight: 400;
   font-family: "Poppins";
   line-height: normal;
+  @media (max-width:900px) {
+    padding-bottom: 3rem;
+  }
 }
 
 .contact-details-section-h2 {
   margin-bottom: 2rem;
+  @media (max-width:900px) {
+    margin-bottom: 0.4rem;
+  }
 }
 
 .contact-detail-section-phone {
@@ -106,7 +120,6 @@
 
 /* Form section */
 
-
 .form-section {
   margin-top: 5rem;
   width: 50%;
@@ -119,6 +132,10 @@
   padding-top: 3rem;
   padding-left: 2.25rem;
   padding-right: 2.25rem;
+  @media (max-width:900px) {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
 }
 
 .form-section.blur::before {
@@ -222,6 +239,9 @@
   line-height: normal;
   margin-left: 0.5rem;
   width: 100%;
+  @media (max-width: 900px) {
+    font-size: 1rem;
+  }
 }
 
 .form-section .form-section-select {
@@ -236,6 +256,9 @@
   border: 1px solid rgba(105, 102, 102, 0.21);
   margin-bottom: 1rem;
   margin-left: 0.5rem;
+  @media (max-width: 900px) {
+    font-size: 1rem;
+  }
 }
 
 .form-section .form-section-textarea {
@@ -254,6 +277,10 @@
   font-size: 1.4rem;
   font-weight: 400;
   font-family: "Poppins";
+  @media (max-width: 900px) {
+    font-size: 1rem;
+    height: auto;
+  }
 }
 
 .form-section .form-section-textarea:focus {
@@ -273,6 +300,12 @@
   width: 9.3rem;
   color: #fff;
   margin-left: 0.5rem;
+  @media (max-width:900px) {
+    padding: 0.3rem 0.6rem;
+    width: auto;
+    border-radius: 5%;
+    font-size: 1rem;
+  }
 }
 
 .form-section .hints {
@@ -283,6 +316,9 @@
   font-family: "Poppins";
   text-align: justify;
   margin-left: 0.5rem;
+  @media (max-width:900px) {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -314,6 +350,7 @@
   .contact-details-section-margin-2 {
     display: flex;
     flex-direction: column;
+    font-size: medium;
   }
 
   .form-section {
@@ -323,4 +360,3 @@
     width: 80%;
   }
 }
-

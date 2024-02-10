@@ -79,6 +79,14 @@ export default function Header({ header = [] }) {
                   Results
                 </NavLink>
               </h3>
+              <h3>
+                <NavLink
+                  to="My_Coaching_Project/studyfree"
+                  className="header_array_element"
+                >
+                  FreeStudy
+                </NavLink>
+              </h3>
             </div>
             {/* <------------for dropdown options---------------------------> */}
             <div className="dropdown">
@@ -130,6 +138,14 @@ export default function Header({ header = [] }) {
                       // className="header_array_element"
                     >
                       Results
+                    </NavLink>
+                  </p>
+                  <p>
+                    <NavLink
+                      to="My_Coaching_Project/studyfree"
+                      // className="header_array_element"
+                    >
+                      Free Study
                     </NavLink>
                   </p>
                 </div>

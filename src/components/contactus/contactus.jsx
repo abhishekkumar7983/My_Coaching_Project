@@ -4,9 +4,11 @@ import Swal from "sweetalert2";
 import "./contactus.css";
 // import check from "../../assets/Check.svg";
 import React, { useState } from "react";
+import { useForm, ValidationError } from "@formspree/react";
 // import { fetchDataFromApi } from "../../utils/Fetchapi";
 // import { Toast } from "../../utils/Toast";
 const ContactFormComponent = () => {
+  const [state, handleSubmitEmail] = useForm("mbjngnjl");
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -67,6 +69,7 @@ const ContactFormComponent = () => {
       query: formData.message,
       employeeCount: formData.purpose,
     };
+    handleSubmitEmail(e);
     // console.log("data",data)
     // const resp = await fetchDataFromApi(
     //   "CertificatesMoneyyappData/create",
@@ -179,7 +182,11 @@ const ContactFormComponent = () => {
               </p>
             </div>
           )} */}
-          <form onSubmit={handleSubmit}>
+          <form
+            onSubmit={handleSubmit}
+            action="https://formspree.io/f/xrgnpngg"
+            method="POST"
+          >
             <div className="form-group">
               <div className="form-group-input">
                 <input
@@ -248,7 +255,7 @@ const ContactFormComponent = () => {
                   name="jobTitle"
                   value={formData.jobTitle}
                   onChange={handleChange}
-                  placeholder="Job Title"
+                  placeholder="Batch(e.g. JEE/NEET)"
                 />
                 <div className="error">{errors.jobTitle}</div>
               </div>
@@ -279,7 +286,7 @@ const ContactFormComponent = () => {
               >
                 <option value="">please select</option>
                 <option value="11">{less} 11</option>
-                <option value="1000-10,000">11-12</option>
+                <option value="11-12">11-12</option>
                 <option value="droper">droper(12th pass)</option>
                 {/* <option value=">50,000"> {greater}50,000</option> */}
               </select>
@@ -336,7 +343,7 @@ const ContactFormComponent = () => {
               </svg>
             </span>
             <a href="#" className="svg-margin">
-            +91 9984907494
+              +91 9984907494
             </a>
           </p>
           <p className="contact-detail-section-phone">
@@ -355,7 +362,7 @@ const ContactFormComponent = () => {
               </svg>
             </span>
             <a href="#" className="svg-margin">
-             sparkupclasees@gmail.com
+              sparkupclasees@gmail.com
             </a>
           </p>
         </div>

@@ -16,6 +16,7 @@ import ContactFormComponent from "./components/contactus/contactus";
 import Gallery from "./components/Gallery/gallery";
 import Courses from "./components/Courses/courses";
 import Result from "./components/results/result";
+import Freestudy from "./components/FreeStudy/freestudy";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -29,13 +30,14 @@ const router = createBrowserRouter(
       <Route path="My_Coaching_Project/gallery" element={<Gallery />} />
       <Route path="My_Coaching_Project/courses" element={<Courses />} />
       <Route path="My_Coaching_Project/result" element={<Result />} />
+      <Route path="My_Coaching_Project/studyfree" element={<Freestudy />} />
     </Route>
   )
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode> 
     <RouterProvider router={router} />
   </React.StrictMode>
 );
