@@ -16,12 +16,12 @@ export default function Footer() {
             </a>
           </div>
           <div className="contact_info">
-            <i className="fas fa-phone-alt"></i>
-            <span>Mobile Number: +917887003010 or +916393798060</span>
+           <span style={{marginRight:"10px"}}><i className="fas fa-phone-alt"></i></span>
+            <span>Mobile Number: +917887003010  or +916393798060</span>
           </div>
           <div className="contact_info">
             <i className="far fa-envelope"></i>
-            <span>Email: Sparkupclasses@gmail.com</span>
+            <span style={{marginLeft:"10px"}}>Email: Sparkupclasses@gmail.com</span>
           </div>
         </div>
       </div>
