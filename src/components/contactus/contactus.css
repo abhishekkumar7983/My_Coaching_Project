@@ -58,7 +58,7 @@
 /* Contact details section margin */
 .contact-details-section-margin {
   font-size: 16px;
-  color:#666;
+  color: #666;
   width: 100%;
   font-size: 1.4rem;
   font-weight: 400;
@@ -126,10 +126,9 @@
   }
 }
 
-
 .svg-margin {
   margin-left: 1rem;
-  @media (max-width:900px) {
+  @media (max-width: 900px) {
     /* margin-top: 0.1rem; */
   }
 }
@@ -248,7 +247,7 @@
 
 .form-section .form-section-heading {
   margin-bottom: 1rem;
-  color:#666;
+  color: #666;
   font-size: 1.3rem;
   font-family: "Poppins";
   font-weight: 500;
@@ -269,11 +268,12 @@
   padding: 0.625rem;
   align-items: center;
   gap: 0.625rem;
+  color: #666;
   border: 1px solid rgba(105, 102, 102, 0.21);
   margin-bottom: 1rem;
   margin-left: 0.5rem;
   @media (max-width: 900px) {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
