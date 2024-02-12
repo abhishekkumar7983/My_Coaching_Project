@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My_Coaching_Project/static/css/main.0ab567a2.css",
-    "main.js": "/My_Coaching_Project/static/js/main.6048f538.js",
+    "main.js": "/My_Coaching_Project/static/js/main.dab5155d.js",
     "static/js/787.c6cbfb44.chunk.js": "/My_Coaching_Project/static/js/787.c6cbfb44.chunk.js",
     "static/media/ourTeam.png": "/My_Coaching_Project/static/media/ourTeam.87be6b5896e5a0c883ab.png",
     "static/media/img2.png": "/My_Coaching_Project/static/media/img2.d197b457d1409e2d776a.png",
@@ -38,11 +38,11 @@
     "static/media/logo.svg": "/My_Coaching_Project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/My_Coaching_Project/index.html",
     "main.0ab567a2.css.map": "/My_Coaching_Project/static/css/main.0ab567a2.css.map",
-    "main.6048f538.js.map": "/My_Coaching_Project/static/js/main.6048f538.js.map",
+    "main.dab5155d.js.map": "/My_Coaching_Project/static/js/main.dab5155d.js.map",
     "787.c6cbfb44.chunk.js.map": "/My_Coaching_Project/static/js/787.c6cbfb44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ab567a2.css",
-    "static/js/main.6048f538.js"
+    "static/js/main.dab5155d.js"
   ]
 }
