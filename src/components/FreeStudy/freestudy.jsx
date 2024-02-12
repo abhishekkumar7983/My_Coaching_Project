@@ -77,12 +77,12 @@ export default function Freestudy() {
       link: "https://www.youtube.com/watch?v=GW3py_Lk3eQ&list=PLK58putZjcbz4yznI8xq-nXNs_G0CS6g0",
       content: "hii",
     },
-    {
-      src: img10,
-      alt: "Image 10",
-      link: "https://www.youtube.com/watch?v=GW3py_Lk3eQ&list=PLK58putZjcbz4yznI8xq-nXNs_G0CS6g0",
-      content: "hii",
-    },
+    // {
+    //   src: img10,
+    //   alt: "Image 10",
+    //   link: "https://www.youtube.com/watch?v=GW3py_Lk3eQ&list=PLK58putZjcbz4yznI8xq-nXNs_G0CS6g0",
+    //   content: "hii",
+    // },
     {
       src: img11,
       alt: "Image 10",
