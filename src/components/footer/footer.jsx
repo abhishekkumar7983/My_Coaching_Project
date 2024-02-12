@@ -12,14 +12,14 @@ export default function Footer() {
           <div className="contact_info">
             <a href="https://www.youtube.com/@SparkupClasses">
               <i className="fab fa-youtube"></i>
-              <span>YouTube</span>
+              <span>YouTube : Sparkup Classes</span>
             </a>
           </div>
           <div className="contact_info">
             <span style={{ marginRight: "10px" }}>
               <i className="fas fa-phone-alt"></i>
             </span>
-            <span>Mobile Number : +917887003010 || +916393798060</span>
+            <span>Mobile Number : +916393798060</span>
           </div>
           <div className="contact_info">
             <i className="far fa-envelope"></i>

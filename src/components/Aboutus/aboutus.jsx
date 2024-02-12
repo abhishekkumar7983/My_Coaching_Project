@@ -2,9 +2,9 @@
 import React from "react";
 import "./aboutus.css";
 import Section from "./section";
-import img1 from "../../images/image1.jpg";
-import img2 from "../../images/image2.jpg";
-import img3 from "../../images/image3.png";
+import img1 from "../../images/ourMission.png";
+import img2 from "../../images/ourTeam.png";
+import img3 from "../../images/ourVlaue.png";
 
 export default function AboutUs() {
   return (
@@ -24,7 +24,7 @@ export default function AboutUs() {
         image={img3}
         title="Our Values"
         content="Sparkup Classes values excellence, integrity, and innovation, fostering a collaborative environment where diversity is celebrated and students are empowered to embrace a growth mindset."
-        />
+      />
     </div>
   );
 }

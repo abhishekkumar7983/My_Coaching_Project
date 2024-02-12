@@ -14,7 +14,15 @@
     height: 450px;
   }
 }
+.test_img {
+  /* height: 40%; */
+  height: fit-content;
+}
 
+.test_content {
+  color: #666;
+  font-size: 0.8rem;
+}
 .carousel-indicators {
   position: absolute;
   bottom: 20px;

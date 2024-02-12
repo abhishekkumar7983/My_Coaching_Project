@@ -35,9 +35,7 @@
 }
 @media (max-width: 870px) {
   .dropbtn {
-    display: flex; 
-   
-    
+    display: flex;
   }
 }
 /* Dropdown container */
@@ -82,6 +80,7 @@
   padding: 1%;
   padding-left: 5.5%;
 }
+
 /* @media (max-width: 800px) {
   .coaching_header_title {
     font-size: 2.2rem;

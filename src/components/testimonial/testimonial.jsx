@@ -2,9 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import "./testimonail.css"; // Make sure the path to your CSS file is correct
-import img1 from "../../images/image1.jpg";
-import img2 from "../../images/image2.jpg";
-import img3 from "../../images/image3.png";
+import img1 from "../../images/Physics.png";
+import img2 from "../../images/biology.png";
+import img3 from "../../images/chmistry.png";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -13,18 +13,9 @@ const Carousel = () => {
       src: img1,
       alt: "...",
       caption: {
-        title: "First slide label",
-        content: "Some representative placeholder content for the first slide.",
-      },
-      // interval: 1000
-    },
-    {
-      src: img2,
-      alt: "...",
-      caption: {
-        title: "Second slide label",
+        title: "Physics",
         content:
-          "Some representative placeholder content for the second slide.",
+          "Unlock the mysteries of the universe: Physics for JEE and NEET - where curiosity meets determination for boundless discovery.",
       },
       // interval: 1000
     },
@@ -32,8 +23,19 @@ const Carousel = () => {
       src: img3,
       alt: "...",
       caption: {
-        title: "Third slide label",
-        content: "Some representative placeholder content for the third slide.",
+        title: "Chemistry",
+        content:
+          "Dive into the elements of success: Chemistry for JEE and NEET - where reactions fuel aspirations and bonds form brighter futures.",
+      },
+      // interval: 1000
+    },
+    {
+      src: img2,
+      alt: "...",
+      caption: {
+        title: "Biology",
+        content:
+          "Dive into the wonders of life: Biology for NEET and boards - where exploration fuels the journey to unravel nature's secrets.",
       },
       // interval: 1000
     },
@@ -78,10 +80,10 @@ const Carousel = () => {
             }`}
             data-interval={slide.interval || 5000}
           >
-            <img src={slide.src} className="d-block w-100" alt={slide.alt} />
+            <img src={slide.src} className="test_img" alt={slide.alt} />
             <div className="carousel-caption d-none d-md-block">
-              <h5>{slide.caption.title}</h5>
-              <p>{slide.caption.content}</p>
+              <h3>{slide.caption.title} :</h3>
+              <p className="test_content">{slide.caption.content}</p>
             </div>
           </div>
         ))}
