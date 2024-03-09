@@ -8,7 +8,8 @@ import Freestudy from "./components/FreeStudy/freestudy";
 import Result from "./components/results/result";
 import ContactFormComponent from "./components/contactus/contactus";
 import Layout from "./layout";
-import Home from "./components/Home/home";
+import Home from "./components/Home";
+
 function App() {
   return (
     <>
