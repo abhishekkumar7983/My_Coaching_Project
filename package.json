@@ -1,7 +1,6 @@
 {
   "name": "sparkup_classes",
   "version": "0.1.0",
-  "homepage": "https://abhishekkumar7983.github.io/My_Coaching_Project",
   "private": true,
   "dependencies": {
     "@fontsource/poppins": "^5.0.8",
