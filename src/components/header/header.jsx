@@ -39,7 +39,7 @@ export default function Header({ header = [] }) {
             <div className="headers_options">
               <h3>
                 <NavLink
-                  to="/My_Coaching_Project"
+                  to="/"
                   className="header_array_element"
                 >
                   Home
@@ -48,7 +48,7 @@ export default function Header({ header = [] }) {
 
               <h3>
                 <NavLink
-                  to="My_Coaching_Project/about"
+                  to="/about"
                   className="header_array_element"
                 >
                   AboutUs
@@ -57,7 +57,7 @@ export default function Header({ header = [] }) {
 
               <h3>
                 <NavLink
-                  to="My_Coaching_Project/courses"
+                  to="/courses"
                   className="header_array_element"
                 >
                   Courses
@@ -65,7 +65,7 @@ export default function Header({ header = [] }) {
               </h3>
               <h3>
                 <NavLink
-                  to="My_Coaching_Project/gallery"
+                  to="/gallery"
                   className="header_array_element"
                 >
                   Gallery
@@ -73,7 +73,7 @@ export default function Header({ header = [] }) {
               </h3>
               <h3>
                 <NavLink
-                  to="My_Coaching_Project/contact"
+                  to="/contact"
                   className="header_array_element"
                 >
                   ContactUs
@@ -81,7 +81,7 @@ export default function Header({ header = [] }) {
               </h3>
               <h3>
                 <NavLink
-                  to="My_Coaching_Project/result"
+                  to="/result"
                   className="header_array_element"
                 >
                   Results
@@ -89,7 +89,7 @@ export default function Header({ header = [] }) {
               </h3>
               <h3>
                 <NavLink
-                  to="My_Coaching_Project/studyfree"
+                  to="/studyfree"
                   className="header_array_element"
                 >
                   FreeStudy
@@ -108,12 +108,12 @@ export default function Header({ header = [] }) {
               {showDropdown && (
                 <div className="dropdown-content">
                   <p>
-                    <NavLink to="/My_Coaching_Project" onClick={closeDropdown} >Home</NavLink>
+                    <NavLink to="/" onClick={closeDropdown} >Home</NavLink>
                   </p>
 
                   <p>
                     <NavLink
-                      to="My_Coaching_Project/about" onClick={closeDropdown}
+                      to="/about" onClick={closeDropdown}
                       // className="header_array_element"
                     >
                       AboutUs
@@ -122,7 +122,7 @@ export default function Header({ header = [] }) {
 
                   <p>
                     <NavLink
-                      to="My_Coaching_Project/courses" onClick={closeDropdown}
+                      to="/courses" onClick={closeDropdown}
                       // className="header_array_element"
                     >
                       Courses
@@ -130,7 +130,7 @@ export default function Header({ header = [] }) {
                   </p>
                   <p>
                     <NavLink
-                      to="My_Coaching_Project/gallery" onClick={closeDropdown}
+                      to="/gallery" onClick={closeDropdown}
                       // className="header_array_element"
                     >
                       Gallery
@@ -138,7 +138,7 @@ export default function Header({ header = [] }) {
                   </p>
                   <p>
                     <NavLink
-                      to="My_Coaching_Project/contact" onClick={closeDropdown}
+                      to="/contact" onClick={closeDropdown}
                       // className="header_array_element"
                     >
                       ContactUs
@@ -146,7 +146,7 @@ export default function Header({ header = [] }) {
                   </p>
                   <p>
                     <NavLink
-                      to="My_Coaching_Project/result" onClick={closeDropdown}
+                      to="/result" onClick={closeDropdown}
                       // className="header_array_element"
                     >
                       Results
@@ -154,7 +154,7 @@ export default function Header({ header = [] }) {
                   </p>
                   <p>
                     <NavLink
-                      to="My_Coaching_Project/studyfree" onClick={closeDropdown}
+                      to="/studyfree" onClick={closeDropdown}
                       // className="header_array_element"
                     >
                       Free Study

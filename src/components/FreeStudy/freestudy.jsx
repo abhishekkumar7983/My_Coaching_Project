@@ -13,6 +13,7 @@ import img8 from "../../images/img8.png";
 import img9 from "../../images/img9.png";
 import img10 from "../../images/img10.png";
 import img11 from "../../images/study_more.jpg";
+import Carousel from "../testimonial/testimonial";
 
 export default function Freestudy() {
   const courses = [

@@ -1,24 +1,75 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Home from "./components/header/header";
-import Footer from "./components/footer/footer";
-// import Testimonail from './components/testimonial/testimonial';
-import Testimonials from "./components/testimonial/testimonial";
-import Contactus from "./components/contactus/contactus";
+
 import AboutUs from "./components/Aboutus/aboutus";
 import Courses from "./components/Courses/courses";
 import Gallery from "./components/Gallery/gallery";
+import { Route, Routes } from "react-router";
+import Freestudy from "./components/FreeStudy/freestudy";
+import Result from "./components/results/result";
+import ContactFormComponent from "./components/contactus/contactus";
+import Layout from "./layout";
+import Home from "./components/Home/home";
 function App() {
   return (
     <>
-      {/* <Home/>
-      {/* <Testimonials></Testimonials>
-      <Contactus /> */}
-      {/* <AboutUs /> */}
-      {/* <Courses /> */}
-      {/* <Gallery /> */}
-
-      {/* <Footer /> */}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <Home />
+            </Layout>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <Layout>
+              <AboutUs />
+            </Layout>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Layout>
+              <ContactFormComponent />
+            </Layout>
+          }
+        />
+        <Route
+          path="/gallery"
+          element={
+            <Layout>
+              <Gallery />
+            </Layout>
+          }
+        />
+        <Route
+          path="/courses"
+          element={
+            <Layout>
+              <Courses />
+            </Layout>
+          }
+        />
+        <Route
+          path="/result"
+          element={
+            <Layout>
+              <Result />
+            </Layout>
+          }
+        />
+        <Route
+          path="/studyfree"
+          element={
+            <Layout>
+              <Freestudy />
+            </Layout>
+          }
+        />
+      </Routes>
     </>
   );
 }
